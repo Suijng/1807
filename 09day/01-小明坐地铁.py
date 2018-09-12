@@ -19,9 +19,9 @@ elif
 money=0
 d=float(input('输入公里数:'))#公里
 for i in range(1,31):
-	print('%d天'%i,end='')
+	#print('%d天'%i,end='')
 	for j in range(1,3):
-		print('%d次'%j)
+		#print('%d次'%j)
 		if d<=6:
 			p=3
 		elif d>6 and d<=12:
@@ -42,7 +42,7 @@ for i in range(1,31):
 			p=p*0.5
 		money = money+p
 
-print('一共花了%f元'%money)
+print('一共花了%.2f元'%money)
 
 
 

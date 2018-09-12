@@ -1,5 +1,5 @@
 lists=[]
-d={}
+#d={}
 
 def menu():#菜单声明
 	while True:
@@ -40,6 +40,7 @@ def info():#选择功能的声明
 
 def add():#添加的声明
 	while True:
+		d={}
 		name=input('请输入名字:')
 		if len(name)>=2 and len(name)<=4:	
 			d['name']=name
